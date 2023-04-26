@@ -93,11 +93,16 @@ a:focus {
     color: #a4b8ee;
     text-transform: uppercase;
     border: 2px solid #a4b8ee;
+    padding: 10px;
+    border-radius: 3px;
   }
 
   .button.contact:hover {
+    display: inline-block; 
     background-color: #a4b8ee;
     color: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
   }
 
   img {
@@ -105,7 +110,6 @@ a:focus {
   }
 
   
-
   .container {
     max-width: 1200px;
   }
@@ -172,9 +176,35 @@ nav > ul > li > a {
 }
 
 #hero h1 {
-  text-align: left; /* Centers text */
+  text-align: center; /* Centers text */
 }
 
 #footer {
- img-align: left; /* Centers text */
+ img-align: center; /* Centers text */
+}
+
+selector {
+  position:relative
+}
+
+.center {
+  text-align: center;
+}
+
+#contact h2{
+  text-align: center;
+}
+
+#together {
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0;
+  text-align: center; 
+}
+
+#about me h1 {
+  text-align: center;
 }
