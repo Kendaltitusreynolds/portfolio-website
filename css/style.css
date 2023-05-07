@@ -95,7 +95,9 @@ a:focus {
     border: 2px solid #a4b8ee;
     padding: 10px;
     border-radius: 3px;
-  }
+    text-align: center;
+    margin-bottom: 32px;
+ }
 
   .button.contact:hover {
     display: inline-block; 
@@ -103,6 +105,7 @@ a:focus {
     color: #ffffff;
     padding: 3px;
     border-radius: 3px;
+   
   }
 
   img {
@@ -181,6 +184,7 @@ nav > ul > li > a {
 
 #footer {
  img-align: center; /* Centers text */
+ text-align: center;
 }
 
 selector {
@@ -235,4 +239,8 @@ header {
     float: right;
     margin-top: 4px;
   }
+}
+
+#contact{
+  text-align: center;
 }
