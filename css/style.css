@@ -242,7 +242,8 @@ selector {
 @media only screen and (min-width: 641px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 20px 0 13px;}
+    
     nav > ul > li {
       display: inline-block;
     }
@@ -252,7 +253,7 @@ selector {
     .navtoggle li:last-child {
       display: none;
     }
-  }
+  
 
   nav {
     width: auto;
@@ -329,6 +330,11 @@ selector {
 
 .navtoggle, .navtoggle.responsive {
   position: relative;
+}
+
+
+.navtoggle.responsive.li {
+  display: block;
 }
 
 .navtoggle li .icon {
