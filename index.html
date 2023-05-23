@@ -12,7 +12,9 @@
          <meta name="msapplication-TileColor" content="#da532c">
          <meta name="theme-color" content="#ffffff">
          
-        
+         <script src="https://kit.fontawesome.com/053780592d.js" crossorigin="anonymous"></script>
+         
+
             <link rel="stylesheet" type="text/css" href="css/normalize.css">
           
             <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -28,13 +30,15 @@
     <body>
         <header> 
             <div class="container">
+              <div class="navtoggle" id="myNavtoggle"></div>
                 <a href="index.html"><img class="logo" src="img/Logo.svg" alt="Logo"></a>
          
                 <nav>
                     <ul class="navigation">
                         <li><a href="yourturn.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li></ul>    
+                        <li><a href="#contact">Contact</a></li></ul>
+                        <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>   
                 </nav>
             </div>  
         </header>
@@ -772,6 +776,7 @@
             </footer>
             
        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNf0u91ta320/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="js/scripts.js."></script>
     </body>
   
