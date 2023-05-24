@@ -222,29 +222,9 @@ selector {
 }
 
 
-@media only screen and (min-width: 640px) {
-}
 
-@media only screen and (min-width: 1024px) {
-}
-
-@media only screen and (min-width: 1440px) {
-  .container{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-
-
-
-@media only screen and (min-width: 641px) {
-  header {
-    text-align: unset;
-    padding: 20px 0 13px;}
     
-    nav > ul > li {
+/*    nav > ul > li {
       display: inline-block;
     }
     .navtoggle li:not(:last-child) {
@@ -253,7 +233,7 @@ selector {
     .navtoggle li:last-child {
       display: none;
     }
-  
+*/  
 
   nav {
     width: auto;
@@ -261,6 +241,9 @@ selector {
     margin-top: 4px;
   }
 }
+
+ 
+
 
 .contact{
   text-align: center;
@@ -324,7 +307,7 @@ selector {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-.navtoggle li:not(:last-child) {
+/*.navtoggle li:not(:last-child) {
   display: none;
 }
 
@@ -344,3 +327,78 @@ selector {
   font-size: 20px;
   color: #a4b8ee;
 }
+*/
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-top: 0;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #a4b8ee;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: 0;
+  padding: 10px 0;
+  border-top: 1px solid #a4b8ee;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+
+@media only screen and (min-width: 640px) {
+}
+
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1440px) {
+  .container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 641px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
