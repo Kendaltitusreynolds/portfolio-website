@@ -28,16 +28,18 @@
     <body>
         <header> 
             <div class="container">
+              <div class="navtoggle" id="myNavtoggle">
                 <a href="index.html"><img class="logo" src="img/Logo.svg" alt="Logo"></a>
          
                 <nav>
                     <ul class="navigation">
                         <li><a href="yourturn.html">Work</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li></ul>
-                        
-                </nav>
-            </div>  
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>   
+                    </ul>
+                    </nav>
+            </div>  </div>
         </header>
 
         <div id="hero">
@@ -74,7 +76,9 @@
       
             </footer>
             
-            <script src="js/scripts.js"></script>
+           
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNf0u91ta320/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js."></script>
     </body>
   
 </html>
