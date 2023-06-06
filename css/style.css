@@ -59,15 +59,15 @@ a {
 }
 
 a:hover {
-  color: #050505;
+  color: #fffefe;
   text-decoration: underline; 
 }
 
 a:visited { 
-  color: #000000;
+  color: #fdfafa;
 }
 a:active { 
-  color: #000000;
+  color: #ffffff;
 }
 
 a:hover,
@@ -78,7 +78,7 @@ text-decoration: underline;
 
 .button {
   display: inline-block; 
-  background-color: #a4b8ee;
+  background-color: #295690;
   color: #080808; 
   font-weight: 400;
   padding: 10px;
@@ -93,9 +93,9 @@ text-decoration: underline;
 
 .button.contact {
   background-color: transparent;
-  color: #a4b8ee;
+  color: #295690;
   text-transform: uppercase;
-  border: 2px solid #a4b8ee;
+  border: 2px solid #295690;
   padding: 10px;
   border-radius: 3px;
   text-align: center;
@@ -104,7 +104,7 @@ text-decoration: underline;
 
 .button.contact:hover {
   display: inline-block; 
-  background-color: #a4b8ee;
+  background-color: #295690;
   color: #ffffff;
   padding: 10px;
   border-radius: 3px;
@@ -194,7 +194,7 @@ text-align: center; /* Centers text */
 }
 
 #footer {
-img-align: center; /* Centers text */
+ /* Centers text */
 text-align: center;
 }
 
@@ -247,13 +247,13 @@ display: table;
 
 .button {
 display: inline-block;
-background-color: #a4b8ee;
+background-color: #295690;
 color: white;
 font-weight: 400;
 text-decoration: none;
 padding: 10px;
 border-radius: 3px;
-border-bottom: 2px solid #a4b8ee;
+border-bottom: 2px solid #295690;
 transition-duration: 0.2s;
 transition-property: opacity;
 }
@@ -306,7 +306,15 @@ position: absolute;
 right: 0;
 top: 2px;
 font-size: 20px;
-color: #a4b8ee;
+color: #295690;
+}
+
+#picture {
+width: 70%;
+}
+
+.center {
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 640px) {
